@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./banner.png" alt="Quect — quack a swarm. flat the bill." width="100%">
+
 # 🦆 Quect
 
 ### `quack a swarm. flat the bill.`
