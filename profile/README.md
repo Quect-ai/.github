@@ -65,28 +65,29 @@ curl https://api.quect.ai/v1/chat/completions \
 
 ## Multi-modelo OSS · routing automático
 
-O modelo certo pra cada tarefa, escolhido automaticamente. Precisa do topo? Frontier (Sonnet/GPT) entra por pass-through no Enterprise.
+O modelo certo pra cada tarefa, escolhido automaticamente. Você nunca escolhe o modelo — o roteador manda cada tarefa pro modelo certo, com fallback, nunca 429. Frontier (Sonnet/GPT) entra por pass-through quando necessário.
 
-| Modelo | Caso de uso | Tier |
-|--------|-------------|------|
-| **Qwen3-Coder-Next** ⭐ | flagship · multi-file · 256k context | SWARM |
-| **Qwen3.6-27B** | daily driver · refactor + TDD · vision | LITE · SWARM |
-| **GLM-5.2** | long-horizon · 1M token context | ENTERPRISE |
-| **MiniMax-M3** | análise massiva · raciocínio extenso | ENTERPRISE |
-| **MiMo-V2.5-Pro** | agent harnesses complexos | ENTERPRISE |
+| Spec (stealth) | Caso de uso | Lane |
+|----------------|-------------|------|
+| **~12B dense · vision · 256k** | autocomplete · lint-fix · explain · tool-use | fast-lane |
+| **~80B MoE · 3B active · 256k** | refactor multi-file · TDD · tool-calling | SWARM driver |
+| **~355–600B MoE · ~32B active · 200k** | long-horizon · análise crítica | heavy (pass-through) |
 
-*Catálogo curado pelos melhores modelos open-source do [LMArena WebDev leaderboard](https://arena.ai/leaderboard/code/webdev?license=open-source) · sujeito a mudança — modelos novos entram, antigos são depreciados.*
+*Catálogo curado pelos melhores modelos open-source do [LMArena WebDev leaderboard](https://arena.ai/leaderboard/code/webdev?license=open-source) · sujeito a mudança.*
 
 ## Planos
 
-| Tier | Preço | Throughput | Pra quem |
-|------|-------|-----------|----------|
-| **DEV LITE** | $30/mês | 30–40 tok/s · 1 agente | estudante · iniciante |
-| **DEV SWARM** ⭐ | $59/mês | 90–120 tok/s · 3 agentes | sênior · freelancer |
-| **CORP SWARM** | $249/mês | 400–500 tok/s · 5 seats | startup · agência |
-| **ENTERPRISE** | $999+/mês | 150–300 tok/s · dedicada | compliance · privacidade |
+| Tier | USD/mês | BRL/mês (Pix)¹ | Throughput | Agentes |
+|------|---------|----------------|------------|---------|
+| **FREE** | $0 | R$0 | 15 tok/s | 1 |
+| **BASE** | $39 | R$199 | 30 tok/s | 1 |
+| **PRO** | $76 | R$399 | 60 tok/s | 2 |
+| **SWARM** ⭐ | $150 | R$790 | 90 tok/s | 3 |
+| **MAX** | $284 | R$1.490 | 120 tok/s | 4 |
 
-*Uncapped tokens, fair-use AUP · throughput por conta no LITE/SWARM, por seats no CORP. Planos e números sujeitos a ajuste até o launch.*
+*Uncapped tokens, fair-use AUP · tok/s = taxa de refill; excesso entra em fila (never-429). ¹ Preço BR via Pix — sem IOF (3,5%), pagamento local. Planos sujeitos a ajuste até o launch.*
+
+> 🦆 **Beta founding: 100 vagas a 50% off.** Os 100 primeiros assinantes travam metade do preço enquanto mantiverem a assinatura. Entra na waitlist pra pegar a sua.
 
 ## Entra na fila
 
