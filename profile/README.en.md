@@ -11,7 +11,7 @@ Flat-rate inference: uncapped tokens, dedicated throughput, a predictable bill �
 
 [Português (BR)](README.md) · **English** · [Español](README.es.md)
 
-[Discord](https://discord.gg/MuN6VzTEA3) · [Waitlist](https://quect.ai) · [quect.ai](https://quect.ai)
+[Discord](https://discord.gg/NkY4NzaCfY) · [Waitlist](https://quect.ai) · [quect.ai](https://quect.ai)
 
 > ⚠️ **Pre-launch · June 2026.** Closed beta in waves. Nothing live yet — star + join the waitlist; we'll ping you when the first node is up.
 
@@ -70,29 +70,36 @@ The right model per task, picked automatically. You never choose the model — t
 | Spec (stealth) | Use case | Lane |
 |----------------|----------|------|
 | **~12B dense · vision · 256k** | autocomplete · lint-fix · explain · tool-use | fast-lane |
-| **~80B MoE · 3B active · 256k** | multi-file refactor · TDD · tool-calling | SWARM driver |
+| **~35B MoE · 3B active · 256k** | multi-file refactor · TDD · tool-calling | SWARM driver |
 | **~355–600B MoE · ~32B active · 200k** | long-horizon · critical analysis | heavy (pass-through) |
 
 *Catalog curated from the top open-source models on the [LMArena WebDev leaderboard](https://arena.ai/leaderboard/code/webdev?license=open-source) · subject to change.*
 
-## Plans
+## The ladder grows with the swarm
 
-| Tier | USD/mo | BRL/mo (Pix)¹ | Throughput | Agents |
-|------|--------|----------------|------------|--------|
-| **FREE** | $0 | R$0 | 15 tok/s | 1 |
-| **BASE** | $39 | R$199 | 30 tok/s | 1 |
-| **PRO** | $76 | R$399 | 60 tok/s | 2 |
-| **SWARM** ⭐ | $150 | R$790 | 90 tok/s | 3 |
-| **MAX** | $284 | R$1,490 | 120 tok/s | 4 |
+Quect scales node by node. Every waitlist milestone lights up a new node — more dedicated bandwidth, more parallel agents, better models in the curated pool. You never choose or migrate: the router always sends your task to the best model available. More swarm in the community = more muscle for everyone.
 
-*Uncapped tokens, fair-use AUP · tok/s = refill rate; overflow goes into a queue (never-429). ¹ Brazil Pix price — no IOF (3.5% FX tax), local payment. Plans subject to adjustment until launch.*
+## Pricing · pull the bandwidth
 
-> 🦆 **Founding beta: 100 seats at 50% off.** The first 100 subscribers lock in half price for as long as they stay subscribed. Join the waitlist to grab one.
+No rigid plans. You drag a throughput slider (10 → 150 tok/s) and the price follows, roughly linear: dedicated bandwidth doesn't get cheaper to serve, so there's no hidden volume discount. One pipe, split across as many agents as you want (rule of thumb: ~1 agent per 30 tok/s).
+
+| Throughput | USD/mo | BRL/mo (Pix)¹ |
+|-----------|--------|----------------|
+| **10 tok/s** | **$0** · free | **R$0** |
+| 30 tok/s | $39 | R$199 |
+| 60 tok/s | $78 | R$398 |
+| 90 tok/s | $117 | R$597 |
+| 120 tok/s | $156 | R$796 |
+| 150 tok/s | $195 | R$995 |
+
+*Reference points — the slider is continuous on the site, in steps of 10 tok/s. Uncapped tokens, fair-use AUP · tok/s = refill rate; overflow goes into a queue (never-429). ¹ Brazil Pix price — no IOF (3.5% FX tax), local payment. Launch pricing, subject to adjustment.*
+
+> 🦆 **Founding beta: 100 seats.** The first 100 subscribers get a founder badge + seat #1–100, queue priority, and founder & roadmap access. Full price — the perk is status and access, not a discount. Join the waitlist to grab one.
 
 ## Get in
 
 1. ⭐ this repo
-2. Join the [Discord](https://discord.gg/MuN6VzTEA3)
+2. Join the [Discord](https://discord.gg/NkY4NzaCfY)
 3. [Waitlist](https://quect.ai) — tell us your current monthly token spend + which harness you use
 
 ## License

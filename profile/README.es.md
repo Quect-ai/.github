@@ -11,7 +11,7 @@ Inferencia flat-rate: uncapped tokens, throughput dedicado, una factura predecib
 
 [Português (BR)](README.md) · [English](README.en.md) · **Español**
 
-[Discord](https://discord.gg/MuN6VzTEA3) · [Waitlist](https://quect.ai) · [quect.ai](https://quect.ai)
+[Discord](https://discord.gg/NkY4NzaCfY) · [Waitlist](https://quect.ai) · [quect.ai](https://quect.ai)
 
 > ⚠️ **Pre-launch · junio 2026.** Beta cerrada por waves. Todavía nada en vivo — dale ⭐ y únete a la waitlist; te avisamos cuando suba el primer nodo.
 
@@ -70,29 +70,36 @@ El modelo correcto para cada tarea, elegido automáticamente. Nunca eliges el mo
 | Spec (stealth) | Caso de uso | Lane |
 |----------------|-------------|------|
 | **~12B dense · vision · 256k** | autocomplete · lint-fix · explain · tool-use | fast-lane |
-| **~80B MoE · 3B active · 256k** | refactor multi-file · TDD · tool-calling | SWARM driver |
+| **~35B MoE · 3B active · 256k** | refactor multi-file · TDD · tool-calling | SWARM driver |
 | **~355–600B MoE · ~32B active · 200k** | long-horizon · análisis crítico | heavy (pass-through) |
 
 *Catálogo curado entre los mejores modelos open-source del [LMArena WebDev leaderboard](https://arena.ai/leaderboard/code/webdev?license=open-source) · sujeto a cambios.*
 
-## Planes
+## La escalera crece con el swarm
 
-| Tier | USD/mes | BRL/mes (Pix)¹ | Throughput | Agentes |
-|------|---------|----------------|------------|---------|
-| **FREE** | $0 | R$0 | 15 tok/s | 1 |
-| **BASE** | $39 | R$199 | 30 tok/s | 1 |
-| **PRO** | $76 | R$399 | 60 tok/s | 2 |
-| **SWARM** ⭐ | $150 | R$790 | 90 tok/s | 3 |
-| **MAX** | $284 | R$1.490 | 120 tok/s | 4 |
+Quect escala nodo por nodo. Cada hito de la waitlist enciende un nodo nuevo — más ancho de banda dedicado, más agentes en paralelo y mejores modelos en el pool curado. Nunca eliges ni migras: el router siempre manda tu tarea al mejor modelo disponible. Más swarm en la comunidad = más músculo para todos.
 
-*Uncapped tokens, fair-use AUP · tok/s = tasa de recarga; el exceso entra en cola (never-429). ¹ Precio BR vía Pix — sin IOF (3,5% impuesto FX), pago local. Planes sujetos a ajuste hasta el launch.*
+## Precio · estira la banda
 
-> 🦆 **Beta founding: 100 plazas al 50% off.** Los primeros 100 suscriptores fijan la mitad del precio mientras mantengan la suscripción. Entra a la waitlist para conseguir la tuya.
+Sin planes rígidos. Estiras una regla de throughput (10 → 150 tok/s) y el precio acompaña, ~lineal: la banda dedicada no se sirve más barata, así que no hay descuento por volumen escondido. Un solo pipe, repartido entre cuantos agentes quieras (guía: ~1 agente por 30 tok/s).
+
+| Throughput | USD/mes | BRL/mes (Pix)¹ |
+|-----------|---------|----------------|
+| **10 tok/s** | **$0** · gratis | **R$0** |
+| 30 tok/s | $39 | R$199 |
+| 60 tok/s | $78 | R$398 |
+| 90 tok/s | $117 | R$597 |
+| 120 tok/s | $156 | R$796 |
+| 150 tok/s | $195 | R$995 |
+
+*Puntos de referencia — la regla es continua en el sitio, de 10 en 10 tok/s. Uncapped tokens, fair-use AUP · tok/s = tasa de recarga; el exceso entra en cola (never-429). ¹ Precio BR vía Pix — sin IOF (3,5% impuesto FX), pago local. Precio de lanzamiento, sujeto a ajuste.*
+
+> 🦆 **Beta founding: 100 plazas.** Los primeros 100 suscriptores reciben insignia de fundador + asiento #1–100, prioridad en cola y acceso al founder y roadmap. Precio completo — el perk es estatus y acceso, no un descuento. Entra a la waitlist para conseguir la tuya.
 
 ## Únete
 
 1. ⭐ este repo
-2. Únete al [Discord](https://discord.gg/MuN6VzTEA3)
+2. Únete al [Discord](https://discord.gg/NkY4NzaCfY)
 3. [Waitlist](https://quect.ai) — cuéntanos cuánto gastas/mes en tokens + qué harness usas
 
 ## Licencia
