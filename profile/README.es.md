@@ -81,18 +81,19 @@ Quect escala nodo por nodo. Cada hito de la waitlist enciende un nodo nuevo — 
 
 ## Precio · estira la banda
 
-Sin planes rígidos. Estiras una regla de throughput (10 → 150 tok/s) y el precio acompaña, ~lineal: la banda dedicada no se sirve más barata, así que no hay descuento por volumen escondido. Un solo pipe, repartido entre cuantos agentes quieras (guía: ~1 agente por 30 tok/s).
+Sin planes rígidos. FREE a 15 tok/s, pago de 20 → 150 tok/s en una regla de throughput y el precio acompaña, ~lineal: la banda dedicada no se sirve más barata, así que no hay descuento por volumen escondido. Un solo pipe, repartido entre cuantos agentes quieras (guía: ~1 agente por 30 tok/s).
 
 | Throughput | USD/mes | BRL/mes (Pix)¹ |
 |-----------|---------|----------------|
-| **10 tok/s** | **$0** · gratis | **R$0** |
+| **FREE · 15 tok/s** | **$0** · gratis | **R$0** |
+| **20 tok/s** | **$26** | **R$133** |
 | 30 tok/s | $39 | R$199 |
 | 60 tok/s | $78 | R$398 |
 | 90 tok/s | $117 | R$597 |
 | 120 tok/s | $156 | R$796 |
 | 150 tok/s | $195 | R$995 |
 
-*Puntos de referencia — la regla es continua en el sitio, de 10 en 10 tok/s. Uncapped tokens, fair-use AUP · tok/s = tasa de recarga; el exceso entra en cola (never-429). ¹ Precio BR vía Pix — sin IOF (3,5% impuesto FX), pago local. Precio de lanzamiento, sujeto a ajuste.*
+*Puntos de referencia — la regla es continua en el sitio (de 5 en 5 tok/s desde 20). **Plan anual: 2 meses gratis** — entrada efectiva ~$21,67/mo · R$111/mo. Uncapped tokens, fair-use AUP · tok/s = tasa de recarga; el exceso entra en cola (never-429). ¹ Precio BR vía Pix — sin IOF (3,5% impuesto FX), pago local. Precio de lanzamiento, sujeto a ajuste.*
 
 > 🦆 **Beta founding: 100 plazas.** Los primeros 100 suscriptores reciben insignia de fundador + asiento #1–100, prioridad en cola y acceso al founder y roadmap. Precio completo — el perk es estatus y acceso, no un descuento. Entra a la waitlist para conseguir la tuya.
 

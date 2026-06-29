@@ -81,18 +81,19 @@ Quect scales node by node. Every waitlist milestone lights up a new node — mor
 
 ## Pricing · pull the bandwidth
 
-No rigid plans. You drag a throughput slider (10 → 150 tok/s) and the price follows, roughly linear: dedicated bandwidth doesn't get cheaper to serve, so there's no hidden volume discount. One pipe, split across as many agents as you want (rule of thumb: ~1 agent per 30 tok/s).
+No rigid plans. FREE at 15 tok/s, paid from 20 → 150 tok/s on a throughput slider and the price follows, roughly linear: dedicated bandwidth doesn't get cheaper to serve, so there's no hidden volume discount. One pipe, split across as many agents as you want (rule of thumb: ~1 agent per 30 tok/s).
 
 | Throughput | USD/mo | BRL/mo (Pix)¹ |
 |-----------|--------|----------------|
-| **10 tok/s** | **$0** · free | **R$0** |
+| **FREE · 15 tok/s** | **$0** · free | **R$0** |
+| **20 tok/s** | **$26** | **R$133** |
 | 30 tok/s | $39 | R$199 |
 | 60 tok/s | $78 | R$398 |
 | 90 tok/s | $117 | R$597 |
 | 120 tok/s | $156 | R$796 |
 | 150 tok/s | $195 | R$995 |
 
-*Reference points — the slider is continuous on the site, in steps of 10 tok/s. Uncapped tokens, fair-use AUP · tok/s = refill rate; overflow goes into a queue (never-429). ¹ Brazil Pix price — no IOF (3.5% FX tax), local payment. Launch pricing, subject to adjustment.*
+*Reference points — the slider is continuous on the site (steps of 5 tok/s from 20). **Annual plan: 2 months free** — effective entry ~$21.67/mo · R$111/mo. Uncapped tokens, fair-use AUP · tok/s = refill rate; overflow goes into a queue (never-429). ¹ Brazil Pix price — no IOF (3.5% FX tax), local payment. Launch pricing, subject to adjustment.*
 
 > 🦆 **Founding beta: 100 seats.** The first 100 subscribers get a founder badge + seat #1–100, queue priority, and founder & roadmap access. Full price — the perk is status and access, not a discount. Join the waitlist to grab one.
 
